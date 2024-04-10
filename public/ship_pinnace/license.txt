@@ -1,0 +1,11 @@
+Model Information:
+* title:	Ship Pinnace
+* source:	https://sketchfab.com/3d-models/ship-pinnace-e4e6e25025854ce496dda6144a4c0402
+* author:	TegnoGenial (https://sketchfab.com/TegnoGenial)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Ship Pinnace" (https://sketchfab.com/3d-models/ship-pinnace-e4e6e25025854ce496dda6144a4c0402) by TegnoGenial (https://sketchfab.com/TegnoGenial) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
