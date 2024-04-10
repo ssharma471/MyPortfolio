@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+import resume from '../assets/resume.pdf'
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -48,8 +49,8 @@ const Navbar = () => {
             Sidhant Sharma &nbsp;
             <span className='sm:block hidden'> | Portfolio</span>
           </p>
+         
         </Link>
-
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li
@@ -92,10 +93,32 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+           
             </ul>
           </div>
+        
         </div>
       </div>
+      <a download="Resume"
+    style={{
+        color: 'white',
+        textDecoration: 'none', // Remove underline
+        backgroundColor: '#2f3642', // Background color
+        padding: '10px 20px', // Padding
+        borderRadius: '5px', // Rounded corners
+        border: '2px solid white', // Border
+        display: 'inline-block', // Make it inline-block
+        transition: 'background-color 0.3s, color 0.3s', // Smooth transition
+    }}
+    activeClass="active"
+    href={resume}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="desktopMenuListItem"
+>
+    Download My Resume
+</a>
+
     </nav>
   );
 };
